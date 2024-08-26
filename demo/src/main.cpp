@@ -29,11 +29,11 @@ void setup() {
   Serial.println("IP address");
   Serial.println(WiFi.localIP());
 
-  //webServer.begin();
+  webServer.begin();
 }
 
 void loop() {
-  /*WiFiClient webClient = webServer.available();
+  WiFiClient webClient = webServer.available();
 
   if (webClient)
   {
@@ -69,7 +69,7 @@ void loop() {
     webClient.stop();
     Serial.println("Client Disconnected");
     Serial.println("");
-  }*/
+  }
 
   
   
